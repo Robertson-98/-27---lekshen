@@ -29,12 +29,18 @@ print("hello\vworld")
 #hello
     # world 
 
+pop = "robert"
+pop1 = "david"    
+print(f"{pop} {pop1}")     # - обьединяет две переменные в одну 
+# robert david 
+
+
 "==========================Индексы====================="
 # Индекс - Порядковый номер символа в строке (начиная с 0)
 string = 'h e l l o'
         # 0 1 2 3 4
         #      -2-1
-
+ 
 print(string[-1]) # 'o'
 print(string[0])  # 'h'
 
@@ -48,7 +54,8 @@ print(len(string1)) #11 - счиатет количество строк
 string1[7:]  # 'orld'
 string1[:]   # 'hello world'
 string1[0:11:2]  # 'hlowrd'
-string1[]
+string[::2] # 'hlowrd'
+string[::-1] # 'dlrow olleh
 
 
 "===================================Форматирование строк=========================="
@@ -69,8 +76,6 @@ print(format2.format("Груша", 60))
 
 
 "===============================Методы строк========================================="
-# Метод - это фунция которая пренадлежит определенному типу данных, к ней мы оброщаемся через точку
-print(dir(str)) -#  посмотреть все  доступные методы для данного типа данных
 print("hello".upper()) # "HELLO"
 print("HELLO".lower()) # "hello"
 print("HELLO world".swapcase()) # "hello WORLD"
@@ -86,3 +91,4 @@ print("hello world".split('o')) # ["hell", "w", "rld"]
 print(" ".join(["hello", "world"])) # "hello world"
 print("&".join(["hello", "world"])) # "hello&world"
 print("hello world".find("wor")) # 6 - показывает с какой индекса начинается фраза
+print("robert989".isdigit()) # проверить состоит ли строка полностью из чисел 
