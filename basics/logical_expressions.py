@@ -158,3 +158,8 @@ else:
 num = int(input())
 res = "Hello" if num == 5 else "Bye"
 print(res)
+
+ 
+                         #альтернатива 
+pop = 87
+print(("negative", "positive")[pop>=50])

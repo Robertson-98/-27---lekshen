@@ -23,7 +23,7 @@ while i != 10:
     i = i + 1   #  продублирует "hello" девять раз.
 
 # i = 1
-# while i: # 
+# while i:                    # вообще ни разу не отработает, потому что 0 это False
 #     print("hello world")
 #     i = i + 1
 

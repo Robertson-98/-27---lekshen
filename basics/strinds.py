@@ -92,3 +92,4 @@ print(" ".join(["hello", "world"])) # "hello world"
 print("&".join(["hello", "world"])) # "hello&world"
 print("hello world".find("wor")) # 6 - показывает с какой индекса начинается фраза
 print("robert989".isdigit()) # проверить состоит ли строка полностью из чисел 
+print('abc'.isalpha())  #проверить состоит ли строка из букв
