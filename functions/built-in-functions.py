@@ -96,6 +96,7 @@ print(list(filter(lambda i: i[0].isupper(), list1)))    #['Hello', 'MAKERS']
 #-----------------------------------------------------------------------------------------------------------------
 
 
+
 # reduce - функция, которая импортируется из functools. Тоже принимает функцию и итерируемый обьект, и возвращает один результат
 
 from functools import reduce 
@@ -122,5 +123,10 @@ pop1 = ["hello", "world", "makers", "bootcamp", "aaaaa"]
 print(reduce(max, pop1))                                         #world
 
 print(reduce(lambda x,y: x if len(x) > len(y) else y, pop1))       #bootcamp
+
+
+from functools import reduce 
+list_ = [1, 2, 3, 4]  
+print(reduce(lambda x, y: x + y, list_))
 
 
