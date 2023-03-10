@@ -2,3 +2,7 @@ git att .     - добовляет все файлы для отлеслежив
 git commit -m "test"   - записывает все изменения 
 git push ssh-link master     -закидывает в гидхаб изменения 
          origin
+
+
+git branch - посмотреть на  какой мы ветке
+git log - история commit-ов 

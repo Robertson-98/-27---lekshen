@@ -60,3 +60,6 @@ with open("test.json", "r") as file:
 
 print(res)
 # [1, 2, 3, 4.6, [1, 2, 3], {'A': 1}, 'hello', True, False, None]
+
+
+
