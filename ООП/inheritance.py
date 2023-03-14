@@ -107,3 +107,7 @@ class D(B,A):
 
 #TypeError: Cannot create a consistent method resolution
 # order (MRO) for bases A, B
+
+
+class a:
+    pop = 1 
