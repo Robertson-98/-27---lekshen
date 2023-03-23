@@ -11,7 +11,7 @@ pop.instance_method()
 
 A.instance_method(pop) # тоже самое что выше
 
-
+#-------------------------------------------------------------------------------------------
 
 class A:
     @classmethod
@@ -100,6 +100,9 @@ pizza4.cook()
 # Пиица размером 20
 # Ингридиенты: ('Сыр', 'Колбаска', 'Помидорки')
 
+#-----------------------------------------------------------------------------------------------------------------
+
+
 class A:
     @staticmethod
     def static_method():
@@ -127,3 +130,30 @@ print(cylinder1.area)   #150.79644737231007
 
 print(Cylinder.get_area(4,10))   #150.79644737231007
 # получили ту же информацию только без создания обьекта 
+#------------------------------------------------------------------------------------------------------
+
+class Makers:
+    language_choices = "Python", "Makers"
+    def __init__(self, name):
+        self.name = name
+
+    def instance_method(self):
+        return f"Hello, {self.name}"
+    
+    @classmethod
+    def class_method(cls):
+        return f"Welcome to Makers! What type of language do you choose?:  {cls.language_choices}"
+    
+    @staticmethod
+    def static_method(choice):
+        return f"Great! You chose {choice} course"
+    
+
+user1 = Makers(name="Robert")
+print(user1.instance_method())
+print(user1.class_method())
+print(user1.static_method(choice="Python"))
+
+
+
+
