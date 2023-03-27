@@ -2,3 +2,4 @@ __pycache__
 paskage/
 test.txt
 .env
+venv/

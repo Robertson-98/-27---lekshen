@@ -1,6 +1,6 @@
 git att .     - добовляет все файлы для отлеслеживания изменений 
 git commit -m "test"   - записывает все изменения 
-git push ssh-link master     -закидывает в гидхаб изменения 
+git push ssh-link master     -закидывает в гидхаб изменения /9
          origin
 
 
